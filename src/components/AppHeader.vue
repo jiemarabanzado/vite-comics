@@ -48,7 +48,7 @@
         }
     }
     .selected{
-        color:#0282f9;
-        border-bottom: 3px solid #0282f9;
+        color:var(--primary-color);
+        border-bottom: 3px solid var(--primary-color);
     }
 </style>

@@ -5,8 +5,8 @@
 </script>
 <template>
     <main>
-        <div class="container">
-            
+        <div class="container row">
+            content goes here
         </div>
 
     </main>
@@ -16,5 +16,8 @@
     main{
         background-color: #1c1c1c;
         min-height: 100px;
+        div{
+            color:white
+        }
     }
 </style>
