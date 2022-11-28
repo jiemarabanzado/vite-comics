@@ -55,11 +55,11 @@
         background-color: var(--primary-color);
     }
     .container{
-        padding: 40px;
+        padding: 30px;
         justify-content: space-between;
     }
     img{
-        width: 45px;
+        width: 40px;
     }
     .buy{
         width: calc(100%/5 - 20px);
