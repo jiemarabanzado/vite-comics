@@ -1,10 +1,9 @@
 <script>
-    export default{
-        
-    }
+    
 </script>
 <template>
     <main>
+        <div class="jumbotron"><img  src="../assets/jumbotron.jpg" alt=""></div>
         <div class="container row">
             content goes here
         </div>
@@ -23,5 +22,15 @@
     }
     .container{
         padding: 15px;
+    }
+    .jumbotron{
+        height: 350px;
+        width: 100%;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
     }
 </style>
